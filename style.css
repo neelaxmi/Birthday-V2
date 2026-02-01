@@ -246,3 +246,30 @@ body {
     .wish-message { font-size: 1rem; }
     .cake { transform: scale(0.8); }
 }
+.made-with-love {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Or your preferred font */
+    font-size: 0.9rem;
+    color: #555;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    opacity: 0.8;
+}
+
+/* Optional: Subtle pulse for the heart */
+.made-with-love span {
+    color: #e74c3c;
+    display: inline-block;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+        }
+
+
